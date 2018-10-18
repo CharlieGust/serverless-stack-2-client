@@ -1,36 +1,36 @@
 const dev = {
-  STRIPE_KEY: "pk_test_v1amvR35uoCNduJfkqGB8RLD",
+  STRIPE_KEY: "pk_test_MS72D2dte4ePzlBqLhTxR0Td",
   s3: {
     REGION: "us-east-1",
-    BUCKET: "notes-app-2-api-dev-attachmentsbucket-6wbhcogxihbo"
+    BUCKET: "notes-app-2-api-dev-attachmentsbucket-59qn2xzysys1"
   },
   apiGateway: {
     REGION: "us-east-1",
-    URL: "https://api.serverless-stack.seed-demo.club/dev"
+    URL: "https://api.charliegustavsson.com/dev"
   },
   cognito: {
     REGION: "us-east-1",
-    USER_POOL_ID: "us-east-1_yKOQs2dWK",
-    APP_CLIENT_ID: "1h0r8s763vnqj4id6dvguanp8f",
-    IDENTITY_POOL_ID: "us-east-1:dedfd34a-9d7e-4bf2-a1dd-ef603bac2ecb"
+    USER_POOL_ID: "us-east-1_YaBdjKJTh",
+    APP_CLIENT_ID: "3d53sfp7peiorbvlc6lug6nho4",
+    IDENTITY_POOL_ID: "us-east-1:2e93477c-1c31-4b98-8cfc-e80f32a0ed9b"
   }
 };
 
 const prod = {
-  STRIPE_KEY: "pk_test_v1amvR35uoCNduJfkqGB8RLD",
+  STRIPE_KEY: "pk_test_MS72D2dte4ePzlBqLhTxR0Td",
   s3: {
     REGION: "us-east-1",
-    BUCKET: "notes-app-2-api-prod-attachmentsbucket-1h5n5ttet1hy0"
+    BUCKET: "notes-app-2-api-prod-attachmentsbucket-1two516221yxq"
   },
   apiGateway: {
     REGION: "us-east-1",
-    URL: "https://api.serverless-stack.seed-demo.club/prod"
+    URL: "https://api.charliegustavsson.com/prod"
   },
   cognito: {
     REGION: "us-east-1",
-    USER_POOL_ID: "us-east-1_TwYpMXIJH",
-    APP_CLIENT_ID: "6kfg0o7qo2i3ndk2ur906sc5fd",
-    IDENTITY_POOL_ID: "us-east-1:f4c754b4-24f0-4754-8596-30afedece1fc"
+    USER_POOL_ID: "us-east-1_Dch260spX",
+    APP_CLIENT_ID: "6e75mddvjr0s8bftkjimhrfhp6",
+    IDENTITY_POOL_ID: "us-east-1:b4491658-74f2-4077-b7d6-1717c12df646"
   }
 };
 
