@@ -6,7 +6,7 @@ const dev = {
   },
   apiGateway: {
     REGION: "us-east-1",
-    URL: "https://api.charliegustavsson.com/dev"
+    URL: "https://apei.charliegustavsson.com/dev"
   },
   cognito: {
     REGION: "us-east-1",
@@ -24,7 +24,7 @@ const prod = {
   },
   apiGateway: {
     REGION: "us-east-1",
-    URL: "https://api.charliegustavsson.com/prod"
+    URL: "https://apei.charliegustavsson.com/prod"
   },
   cognito: {
     REGION: "us-east-1",
