@@ -4,6 +4,7 @@
   "private": true,
   "dependencies": {
     "aws-amplify": "^1.1.6",
+    "primer": "^10.8.1",
     "react": "^16.5.2",
     "react-bootstrap": "^0.32.4",
     "react-dom": "^16.5.2",
