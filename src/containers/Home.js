@@ -43,7 +43,7 @@ export default class Home extends Component {
               to={`/notes/${note.noteId}`}
             >
               <ListGroupItem header={note.content.trim().split("\n")[0]}>
-                {"Created: " + new Date(note.createdAt).toLocaleString()}
+                {"Skapad: " + new Date(note.createdAt).toLocaleString()}
               </ListGroupItem>
             </LinkContainer>
           : <LinkContainer
@@ -52,7 +52,7 @@ export default class Home extends Component {
             >
               <ListGroupItem>
                 <h4>
-                  <b>{"\uFF0B"}</b> Create a new note
+                  <b>{"\uFF0B"}</b> Ny notering
                 </h4>
               </ListGroupItem>
             </LinkContainer>
@@ -62,14 +62,14 @@ export default class Home extends Component {
   renderLander() {
     return (
       <div className="lander">
-        <h1>Scratch</h1>
-        <p>A simple note taking app</p>
+        <h1>Notera Mera</h1>
+        <p>Spara dina tankar online</p>
         <div>
           <Link to="/login" className="btn btn-default btn-lg">
-            Login
+            Logga in
           </Link>
           <Link to="/signup" className="btn btn-success btn-lg">
-            Signup
+            Registrera
           </Link>
         </div>
       </div>
@@ -79,7 +79,7 @@ export default class Home extends Component {
   renderNotes() {
     return (
       <div className="notes">
-        <PageHeader>Your Notes</PageHeader>
+        <PageHeader>Dina Noteringar</PageHeader>
         <ListGroup>
           {!this.state.isLoading && this.renderNotesList(this.state.notes)}
         </ListGroup>

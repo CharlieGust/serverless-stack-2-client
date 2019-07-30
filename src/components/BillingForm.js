@@ -56,7 +56,7 @@ class BillingForm extends Component {
     return (
       <form className="BillingForm" onSubmit={this.handleSubmitClick}>
         <FormGroup bsSize="large" controlId="storage">
-          <ControlLabel>Storage</ControlLabel>
+          <ControlLabel>Utrymme</ControlLabel>
           <FormControl
             min="0"
             type="number"
@@ -67,7 +67,7 @@ class BillingForm extends Component {
         </FormGroup>
         <hr />
         <FormGroup bsSize="large" controlId="name">
-          <ControlLabel>Cardholder&apos;s name</ControlLabel>
+          <ControlLabel>Korthavarens namn</ControlLabel>
           <FormControl
             type="text"
             value={this.state.name}
@@ -75,7 +75,7 @@ class BillingForm extends Component {
             placeholder="Name on the card"
           />
         </FormGroup>
-        <ControlLabel>Credit Card Info</ControlLabel>
+        <ControlLabel>Kortnummer</ControlLabel>
         <CardElement
           className="card-field"
           onChange={this.handleCardFieldChange}
@@ -87,9 +87,9 @@ class BillingForm extends Component {
           block
           bsSize="large"
           type="submit"
-          text="Purchase"
+          text="Betala"
           isLoading={loading}
-          loadingText="Purchasing…"
+          loadingText="Behandlar…"
           disabled={!this.validateForm()}
         />
       </form>

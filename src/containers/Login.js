@@ -66,8 +66,8 @@ export default class Login extends Component {
             disabled={!this.validateForm()}
             type="submit"
             isLoading={this.state.isLoading}
-            text="Login"
-            loadingText="Logging in…"
+            text="Logga in"
+            loadingText="loggar in…"
           />
         </form>
       </div>
